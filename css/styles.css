@@ -1,0 +1,72 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: white;
+}
+
+.contenedor {
+	display: grid;
+	grid-template-columns: 15% 15% 40% 15% 15%;
+	grid-template-rows: 200px 200px 200px; 
+	grid-template-areas: "uno dos dos tres tres"
+						 "cuatro dos dos cinco cinco"
+						 "seis siete ocho nueve diez"; 
+	width: 90%;
+	padding: 20px;
+	grid-gap: 20px;
+}
+
+.uno {
+	grid-area: uno;
+	background: tomato;
+}
+
+.dos {
+	grid-area: dos;
+	background: yellow;
+}
+
+.tres {
+	grid-area: tres;
+	background: pink;
+}
+
+.cuatro {
+	grid-area: cuatro;
+	background: lightblue;
+}
+
+.cinco {
+	grid-area: cinco;
+	background: grey;
+}
+
+.seis {
+	grid-area: seis;
+	background: red;
+}
+
+.siete {
+	grid-area: siete;
+	background: blue;
+}
+
+.ocho {
+	grid-area: ocho;
+	background: green;
+}
+
+.nueve {
+	grid-area: nueve;
+	background: peru;
+}					
+
+.diez {
+	grid-area: diez;
+	background: red;
+}
+
